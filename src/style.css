@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hero_img {
+    background-image: url("/img/hero.jpg");
+    background-size: cover;
+  }
+
+  .cheat {
+    background-image: url("/img/cheat.png");
+    height: 130vh;
+
+    background-size: cover;
+  }
+}
